@@ -23,9 +23,17 @@ const projectsData = [
     gitUrl: "https://github.com/khowimoff1/maxway.git",
     previewUrl: "https://sardorbekxoshimov.netlify.app/",
   },
-  
   {
     id: 3,
+    title: "Dezenfiksiya website",
+    description: "disinfection service",
+    image: "/d2.png",
+    tag: ["All", "Web","Mobile"],
+    gitUrl: "https://github.com/khowimoff1/dezenfiksya.git",
+    previewUrl: "https://dezenfiksya.netlify.app/",
+  },
+  {
+    id: 4,
     title: "Vibes Movie website",
     description: "you can watch movies in the buyer",
     image: "/vibes-movie.png",
@@ -34,7 +42,7 @@ const projectsData = [
     previewUrl: "https://vibes-movie.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Book Shelter website",
     description: "here you can read and buy books",
     image: "/book-shelter.png",
@@ -43,7 +51,7 @@ const projectsData = [
     previewUrl: "https://books-shelter.netlify.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Crypto values website",
     description: "here you can see crypto values",
     image: "/crypto-value.png",
@@ -73,10 +81,10 @@ const ProjectsSection = () => {
 
   return (
     <section id="projects">
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+      <h2 className="mt-4 mb-8 text-4xl font-bold text-center text-white md:mb-12">
         My Projects
       </h2>
-      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
+      <div className="flex flex-row items-center justify-center gap-2 py-6 text-white">
         <ProjectTag
           onClick={handleTagChange}
           name="All"
@@ -93,7 +101,7 @@ const ProjectsSection = () => {
           isSelected={tag === "Mobile"}
         />
       </div>
-      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
+      <ul ref={ref} className="grid gap-8 md:grid-cols-3 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li
             key={index}
