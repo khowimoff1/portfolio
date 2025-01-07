@@ -34,12 +34,12 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Vibes Movie website",
-    description: "you can watch movies in the buyer",
-    image: "/vibes-movie.png",
+    title: "Sleepnest website",
+    description: "you can view and buy furniture",
+    image: "/mebel.png",
     tag: ["All", "Web", "Mobile"],
-    gitUrl: "https://github.com/khowimoff1/vibesmovie.git",
-    previewUrl: "https://vibes-movie.netlify.app/",
+    gitUrl: "https://github.com/khowimoff1/sleepnest.git",
+    previewUrl: "https://sleepnest.netlify.app/",
   },
   {
     id: 5,
@@ -67,6 +67,15 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/khowimoff1/cryptoValues.git",
     previewUrl: "https://crypto-values.netlify.app/",
+  },
+  {
+    id: 8,
+    title: "Vibes Movie website",
+    description: "you can watch movies in the buyer",
+    image: "/vibes-movie.png",
+    tag: ["All", "Web", "Mobile"],
+    gitUrl: "https://github.com/khowimoff1/vibesmovie.git",
+    previewUrl: "https://vibes-movie.netlify.app/",
   },
 ];
 
