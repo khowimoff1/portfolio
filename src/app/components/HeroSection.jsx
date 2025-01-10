@@ -44,7 +44,7 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="/Xoshimov-Sardorbek-resume.pdf"
+              href="/Xoshimov resume.pdf"
               className="inline-block w-full px-1 py-1 mt-3 text-white rounded-full sm:w-fit bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800"
               download
             >
