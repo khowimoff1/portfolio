@@ -24,6 +24,15 @@ const projectsData = [
     previewUrl: "https://sardorbekxoshimov.netlify.app/",
   },
   {
+    id: 11,
+    title: "Asman website",
+    description: "Here you can view and purchase travertine products.",
+    image: "/asman.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/khowimoff1/portfolio.git",
+    previewUrl: "https://asman-n.netlify.app/",
+  },
+  {
     id: 3,
     title: "Dezenfiksiya website",
     description: "disinfection service",
